@@ -12,8 +12,8 @@ import net.salatschuessel.showcase.model.SourceModel;
 @Mapper
 public interface EntityMapperAfterMapping {
 
-    @Mapping(target = "idFirst.value", source = "myFirstId", conditionQualifiedByName = "myFirstId")
-    @Mapping(target = "idSecond.value", source = "mySecondId", conditionQualifiedByName = "mySecondId")
+    @Mapping(target = "idFirst.value", source = "myFirstId")
+    @Mapping(target = "idSecond.value", source = "mySecondId")
     Entity mapEntity(SourceModel source);
 
     @AfterMapping
