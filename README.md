@@ -5,7 +5,7 @@ There are several mappers to show what possibilities where tried to work around 
 # Working Mappers
 
 ## [EntityMapperAfterMappingEntity](https://github.com/OlliL/mapstruct_1166/blob/main/showcase/src/main/java/net/salatschuessel/showcase/mapper/EntityMapperAfterMappingEntity.java)
-This is a bad solution because imagine you have 200 Entites with plenty of different EntityIds in it as multiple properties - you would need to write a custom AfterMapping method for each of those entites. Pretty bad...
+This is a bad solution because imagine you have 200 models with plenty of different EntityIds in it as multiple properties - you would need to write a custom AfterMapping method for each of those models. Pretty bad...
 
 ## [EntityMapperSeperate](https://github.com/OlliL/mapstruct_1166/blob/main/showcase/src/main/java/net/salatschuessel/showcase/mapper/EntityMapperSeperate.java)
 This could work, but you would need to make sure every dev working with the project uses seperate id mappers, and none is ever useing "id.value" somewhere - that seems not practical and will fail at one point.
