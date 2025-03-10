@@ -1,4 +1,4 @@
-This repository is to have a showcase for mapstruct Issue [#1166](https://github.com/mapstruct/mapstruct/issues/1166)
+This repository is a showcase for the mapstruct Issue [#1166](https://github.com/mapstruct/mapstruct/issues/1166)
 --
 There are several mappers to show what possibilities where tried to work around the issue. There are JUnit-Tests for every mapper which are failing or succeeding as described below.
 
